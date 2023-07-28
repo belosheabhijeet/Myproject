@@ -5,7 +5,7 @@ pipeline {
 stages {
   stage{'Checkout from Github'} {
     steps {
-      git branch: 'master', url: 'https://github.com/vaadin/addressbook.git'
+      git branch: 'master', url: 'https://github.com/belosheabhijeet/Myproject.git'
           }
   }
   stage{'Build using maven'} {
